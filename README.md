@@ -8,6 +8,7 @@ Multiple pages in a single HTML file, useful for simple mobile applications.
 
 
 EXAMPLE:
+```html
 <div id="ChangePagesContent">
 	<div class="page" id="page1">
         	<p>ciao sono la pagina 1</p>
@@ -21,3 +22,4 @@ EXAMPLE:
           	<p>ciao sono la pagina 3</p>
 	</div>
 </div>
+```

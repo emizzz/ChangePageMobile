@@ -8,7 +8,7 @@ $(document).ready(function(){
             var newUrl = e.newURL.split("#")[1];
             newUrl != '' ? newUrl : (function(){throw "empty anchor"}());
             
-            to_hide_divs = $(".page").css("display", "none");
+            to_hide_divs = $(".page");
             to_show_div = $("body").find("#" + newUrl);
 
             $(to_hide_divs).css("display", "none");
